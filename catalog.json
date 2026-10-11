@@ -1,0 +1,38 @@
+{
+  "plugins": [
+    {
+      "sha256": "8ff12c13e0f6c30a8abf06a0ffea96949b5a03e909fae744f5c05a4f18d2ce2a",
+      "version": "1.0.0",
+      "entry": "plugins/hello-dracula/plugin.js",
+      "id": "hello-dracula",
+      "name": "Hello Dracula",
+      "api_version": 1,
+      "permissions": [
+        "commands",
+        "storage",
+        "notifications",
+        "events"
+      ],
+      "description": "A starter plugin with a greeting command, persistent counter, and welcome notification.",
+      "author": "Dracula"
+    },
+    {
+      "id": "message-logger",
+      "name": "Message Logger",
+      "version": "1.0.0",
+      "description": "Local deleted and purged messages, edit history, and ghost-ping flags with a searchable viewer. Captures only observed messages while enabled; history is bounded.",
+      "author": "Dracula",
+      "api_version": 1,
+      "entry": "plugins/message-logger/plugin.js",
+      "sha256": "4447c5517e86f396bffae6cff06f14e617929765a28221e55c40f586d2f13968",
+      "permissions": [
+        "messages",
+        "storage",
+        "commands",
+        "panels",
+        "notifications"
+      ]
+    }
+  ],
+  "schema_version": 1
+}
